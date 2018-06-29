@@ -35,7 +35,7 @@
 </div>
 
 <section class="testimonials">
-	<h1>Testimonials</h1>
+	
 	<article class="testimonial">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
@@ -64,24 +64,20 @@
 
 
 <section class="skills">
-	<h1>Skills</h1>
+	
 	<article class="skill">
-		<figure>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
-		</figure>
-		<h1>Web Development</h1>
+		<i class="material-icons">developer_mode</i>
+		<h1>Development</h1>
 	</article>
 	<article class="skill">
 		<figure>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/two.png">
+			<i class="material-icons">format_shapes</i>
 		</figure>
-		<h1>Graphic Design</h1>
+		<h1>Design</h1>
 	</article>
 	<article class="skill">
-		<figure>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/three.png">
-		</figure>
-		<h1>UX Design</h1>
+		<i class="material-icons">touch_app</i>
+		<h1>Social Media</h1>
 	</article>
 </section>
 

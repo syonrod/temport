@@ -1,41 +1,53 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 nav {
-  background-color: #D92332; }
+  background-color: #D92332;
+}
 
 section.testimonials, section.skills {
   width: 100%;
-  background-color: #9592F2; }
-  section.testimonials article, section.skills article {
-    text-align: center; }
-    section.testimonials article figure, section.skills article figure {
-      margin: 0; }
-      section.testimonials article figure img, section.skills article figure img {
-        width: 150px;
-        height: 150px; }
-    section.testimonials article h1, section.skills article h1 {
-      margin: 0;
-      font-size: 1.5em; }
+  background-color: #9592F2;
+}
+section.testimonials article, section.skills article {
+  text-align: center;
+}
+section.testimonials article figure, section.skills article figure {
+  margin: 0;
+}
+section.testimonials article figure img, section.skills article figure img {
+  width: 150px;
+  height: 150px;
+}
+section.testimonials article h1, section.skills article h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
 
 section.skills {
-  background-color: #F2EFC2; }
+  background-color: #F2EFC2;
+}
 
 section.companies {
   width: 100%;
   background-color: #401115;
   text-align: center;
   display: flex;
-  flex-flow: row; }
-  section.companies figure.company img {
-    width: 40px;
-    height: 40px; }
+  flex-flow: row;
+}
+section.companies figure.company img {
+  width: 40px;
+  height: 40px;
+}
 
 /* Using SCSS variables to store breakpoints */
 @media (min-width: 650px) {
   nav {
-    background-color: #000000; } }
+    background-color: #000000;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
