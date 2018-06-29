@@ -68,13 +68,15 @@ section.skills, section.companies {
   align-items: center;
   background-color: #3B0030;
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 1em;
   justify-content: space-evenly;
   width: 100%;
   color: #FFFFFF; }
   section.skills article.article, section.companies article.article {
-    width: 100%;
+    padding: 1em;
+    width: 30%;
     flex-direction: column;
     text-align: center; }
     section.skills article.article i, section.companies article.article i {
@@ -86,6 +88,10 @@ section.skills, section.companies {
 section.companies {
   color: #FFFFFF;
   background-color: #F53A33; }
+  section.companies article.article svg {
+    fill: #FFFFFF;
+    width: 50px;
+    height: 50px; }
 
 /* Using SCSS variables to store breakpoints */
 @media (min-width: 650px) {
