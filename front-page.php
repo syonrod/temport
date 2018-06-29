@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <div class="slider">
     <ul class="slides">
       <li>
@@ -34,13 +33,33 @@
     </ul>
 </div>
 
+
+
+<section class="skills">
+	
+	<article class="article">
+		<i class="material-icons">developer_mode</i>
+		<h1>Development</h1>
+	</article>
+	<article class="article">
+		<i class="material-icons">format_shapes</i>
+		<h1>Design</h1>
+	</article>
+	<article class="article">
+		<i class="material-icons">touch_app</i>
+		<h1>Social Media</h1>
+	</article>
+</section>
+
+
+
 <section class="testimonials">
 	
 	<article class="testimonial">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
 		</figure>
-		<h1>Name Lastname</h1>
+		<h1>DJ</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.</p>
 	</article>
@@ -48,7 +67,7 @@
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/two.png">
 		</figure>
-		<h1>Name Lastname</h1>
+		<h1>MYLES</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.</p>
 	</article>
@@ -56,42 +75,31 @@
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/three.png">
 		</figure>
-		<h1>Name Lastname</h1>
+		<h1>QUAN</h1>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.</p>
 	</article>
 </section>
 
-
-<section class="skills">
-	
-	<article class="skill">
-		<i class="material-icons">developer_mode</i>
-		<h1>Development</h1>
-	</article>
-	<article class="skill">
-		<figure>
-			<i class="material-icons">format_shapes</i>
-		</figure>
-		<h1>Design</h1>
-	</article>
-	<article class="skill">
-		<i class="material-icons">touch_app</i>
-		<h1>Social Media</h1>
-	</article>
-</section>
-
 <section class="companies">
-
-	<figure class="company">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
-	</figure>
-	<figure class="company">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/two.png">
-	</figure>
-	<figure class="company">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/three.png">
-	</figure>
+	<article class="article">
+		<i class="material-icons">
+3d_rotation
+</i>
+		<h1>Animation</h1>
+	</article>
+	<article class="article">
+		<i class="material-icons">
+monetization_on
+</i>
+		<h1>Monetization</h1>
+	</article>
+	<article class="article">
+		<i class="material-icons">
+my_location
+</i>
+		<h1>SEO</h1>
+	</article>
 </section>
 
 
