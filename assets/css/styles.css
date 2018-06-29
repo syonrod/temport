@@ -1,7 +1,8 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 footer {
   padding: 1em;
@@ -12,57 +13,72 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  align-content: center; }
-  footer p.copy_company {
-    order: 1;
-    flex: 0 1 auto;
-    min-height: auto;
-    min-width: 0;
-    color: #FFFFFF;
-    font-size: 1.5em;
-    align-self: center; }
-  footer ul.socialmedia_icons {
-    order: 2;
-    flex: 0 1 auto;
-    min-height: auto;
-    min-width: 0;
-    align-self: center; }
-    footer ul.socialmedia_icons li {
-      float: left; }
-      footer ul.socialmedia_icons li a img {
-        width: 35px;
-        height: 35px; }
-    footer ul.socialmedia_icons li a {
-      display: block; }
+  align-content: center;
+}
+footer p.copy_company {
+  order: 1;
+  flex: 0 1 auto;
+  min-height: auto;
+  min-width: 0;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  align-self: center;
+}
+footer ul.socialmedia_icons {
+  order: 2;
+  flex: 0 1 auto;
+  min-height: auto;
+  min-width: 0;
+  align-self: center;
+}
+footer ul.socialmedia_icons li {
+  float: left;
+}
+footer ul.socialmedia_icons li a img {
+  width: 35px;
+  height: 35px;
+}
+footer ul.socialmedia_icons li a {
+  display: block;
+}
 
 nav {
-  background-color: #D92332; }
+  background-color: #D92332;
+}
 
 div.slider {
-  height: 100vh !important; }
-  div.slider ul.slides {
-    height: 100vh !important; }
+  height: 100vh !important;
+}
+div.slider ul.slides {
+  height: 100vh !important;
+}
 
 section.testimonials {
   align-items: center;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  width: 100%; }
-  section.testimonials article {
-    margin: 25px 0 25px 0;
-    width: 60%;
-    text-align: center; }
-    section.testimonials article figure {
-      margin: 0; }
-      section.testimonials article figure img {
-        width: 150px;
-        height: 150px; }
-    section.testimonials article h1 {
-      font-size: 1.5em;
-      margin: 0; }
-    section.testimonials article p {
-      margin: 0; }
+  width: 100%;
+}
+section.testimonials article {
+  margin: 25px 0 25px 0;
+  width: 60%;
+  text-align: center;
+}
+section.testimonials article figure {
+  margin: 0;
+}
+section.testimonials article figure img {
+  width: 150px;
+  height: 150px;
+}
+section.testimonials article h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+section.testimonials article p {
+  margin: 0;
+}
 
 section.skills, section.companies {
   align-items: center;
@@ -73,44 +89,72 @@ section.skills, section.companies {
   padding: 1em;
   justify-content: space-evenly;
   width: 100%;
-  color: #FFFFFF; }
-  section.skills article.article, section.companies article.article {
-    padding: 1em;
-    width: 30%;
-    flex-direction: column;
-    text-align: center; }
-    section.skills article.article i, section.companies article.article i {
-      font-size: 3em; }
-    section.skills article.article h1, section.companies article.article h1 {
-      margin: 0;
-      font-size: 1em; }
+  color: #FFFFFF;
+}
+section.skills article.article, section.companies article.article {
+  padding: 1em;
+  width: 30%;
+  flex-direction: column;
+  text-align: center;
+}
+section.skills article.article i, section.companies article.article i {
+  font-size: 3em;
+}
+section.skills article.article h1, section.companies article.article h1 {
+  margin: 0;
+  font-size: 1em;
+}
 
 section.companies {
   color: #FFFFFF;
-  background-color: #F53A33; }
-  section.companies article.article svg {
-    fill: #FFFFFF;
-    width: 50px;
-    height: 50px; }
+  background-color: #F53A33;
+}
+section.companies article.article svg {
+  fill: #FFFFFF;
+  width: 50px;
+  height: 50px;
+}
+
+section.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+section.about-us figure img {
+  width: 200px;
+  height: 200px;
+}
+section.about-us article {
+  padding: 1em;
+}
 
 /* Using SCSS variables to store breakpoints */
 @media (min-width: 650px) {
   section.skills, section.companies {
-    font-size: 2em; }
+    font-size: 2em;
+  }
 
   section.testimonials {
     display: flex;
-    flex-direction: row; }
-    section.testimonials article {
-      width: 100%; }
-      section.testimonials article figure img {
-        width: 300px;
-        height: 300px; }
-      section.testimonials article h1 {
-        font-size: 3em; }
-      section.testimonials article p {
-        margin: 0 auto;
-        width: 300px;
-        font-size: 1.5em; } }
+    flex-direction: row;
+  }
+  section.testimonials article {
+    width: 100%;
+  }
+  section.testimonials article figure img {
+    width: 300px;
+    height: 300px;
+  }
+  section.testimonials article h1 {
+    font-size: 3em;
+  }
+  section.testimonials article p {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 1.5em;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
