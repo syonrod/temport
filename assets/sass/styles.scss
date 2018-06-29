@@ -5,13 +5,13 @@ body{
 }
 
 nav{
-	background-color: #D92332 !important;
+	background-color: #D92332;
 	
 }
 
 
 section.testimonials, section.skills{
-	width: 100vw;
+	width: 100%;
 	background-color: #9592F2;
 	article{
 		text-align: center;
@@ -44,10 +44,18 @@ section.companies{
 	flex-flow: row;
 	figure.company{
 		
-
 		img{
 			width: 40px;
 			height: 40px;
 		}
 	}
+}
+
+
+/* Using SCSS variables to store breakpoints */
+$breakpoint-tablet: 650px;
+@media (min-width: $breakpoint-tablet) {
+  nav{
+  	background-color: #000000;
+  }
 }

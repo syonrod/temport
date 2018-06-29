@@ -35,6 +35,7 @@
 </div>
 
 <section class="testimonials">
+	<h1>Testimonials</h1>
 	<article class="testimonial">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
@@ -63,6 +64,7 @@
 
 
 <section class="skills">
+	<h1>Skills</h1>
 	<article class="skill">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
@@ -84,6 +86,7 @@
 </section>
 
 <section class="companies">
+
 	<figure class="company">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/one.png">
 	</figure>
