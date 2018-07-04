@@ -34,10 +34,12 @@ add_theme_support('post-thumbnails');
 add_theme_support('post-formats', array('aside','image','video'));
 
 
-function custom_excerpt_length( $length ) {
-	return 20;
+// function custom_excerpt_length( $length ) {
+// 	return 20;
+// }
+// add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function pietergoosen_custom_excerpts($limit) {
+    return wp_trim_words(get_the_excerpt(), $limit, '<a href="'. esc_url( get_permalink() ) . '">' . '&nbsp;&hellip;' . __( 'Read more &nbsp;&raquo;', 'pietergoosen' ) . '</a>');
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
-
-
  ?>
