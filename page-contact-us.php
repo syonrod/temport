@@ -1,3 +1,5 @@
 <?php get_header(); ?>
-<h1>CONTACT US</h1>
+<section class="contact">
+    <h1>Hello</h1>
+</section>
 <?php get_footer(); ?>

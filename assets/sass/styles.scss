@@ -1,15 +1,24 @@
+$port-h1-font-size: 1em;
+$item-purple: #6F73BF;
+$item-yellow: #F9D21A;
+$item-blue: #23B7D9;
+$item-green: #24A638;
+$item-red: #F04D4C;
+$color-nav: #D92332;
+
 body{
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	margin: 0;
   padding: 0;
-
 }
+
+
 
 footer{
   padding: 1em;
   height: 100px;
   width: 100%;
-  background-color: #D92332;
+  background-color: $color-nav;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -49,7 +58,7 @@ footer{
 
 
 nav{
-	background-color: #D92332;
+	background-color: $color-nav;
 	
 }
 
@@ -74,7 +83,7 @@ section.testimonials{
 		figure{
 			margin: 0;
 			img{
-				width: 150px;
+				width: 100%;
 				height: 150px;
 			}
 		}
@@ -178,6 +187,287 @@ article.post{
   }  
 }
 
+.collapsible{
+  min-height: calc(100vh - 156px);
+  font-size: 2em;
+ li.graphicdesign{
+   div.graphicdesignmenu{
+     section.logos{
+       display: flex;
+       flex-direction: column;
+       background: $item-purple;
+       height: 150px;
+       align-items: center;
+       justify-content: center;
+       margin: 0 auto;
+       text-align: center;
+       width: 100%;
+       h1{
+         font-size: $port-h1-font-size;
+        color: #FFFFFF;
+         order: 1;
+         flex: 0 1 auto;
+         min-width: 0;
+         min-height: auto;
+         align-self: auto;
+       }
+     }
+     section.illustrations{
+      display: flex;
+      flex-direction: column;
+      background: $item-yellow;
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      h1{
+        font-size: $port-h1-font-size;
+       color: #FFFFFF;
+        order: 1;
+        flex: 0 1 auto;
+        min-width: 0;
+        min-height: auto;
+        align-self: auto;
+      }
+    }
+    section.businesscards{
+      display: flex;
+      flex-direction: column;
+      background: $item-blue;
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      h1{
+        font-size: $port-h1-font-size;
+       color: #FFFFFF;
+        order: 1;
+        flex: 0 1 auto;
+        min-width: 0;
+        min-height: auto;
+        align-self: auto;
+      }
+    }
+    section.flyers{
+      display: flex;
+      flex-direction: column;
+      background: $item-green;
+      height: 150px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      h1{
+        font-size: $port-h1-font-size;
+       color: #FFFFFF;
+        order: 1;
+        flex: 0 1 auto;
+        min-width: 0;
+        min-height: auto;
+        align-self: auto;
+      }
+    }
+    
+   }
+ }
+ section.logos{
+  display: flex;
+  flex-direction: column;
+  background: $item-purple;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+section.illustrations{
+  display: flex;
+  flex-direction: column;
+  background: $item-yellow;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+section.animations{
+  display: flex;
+  flex-direction: column;
+  background: $item-blue;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+
+
+section.blogs{
+  display: flex;
+  flex-direction: column;
+  background: $item-purple;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+
+section.services{
+  display: flex;
+  flex-direction: column;
+  background: $item-yellow;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+
+section.rest{
+  display: flex;
+  flex-direction: column;
+  background: $item-blue;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+
+section.plainphp{
+  display: flex;
+  flex-direction: column;
+  background: $item-green;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+
+section.laravel{
+  display: flex;
+  flex-direction: column;
+  background: $item-red;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+section.vanilla{
+  display: flex;
+  flex-direction: column;
+  background: $item-purple;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  h1{
+    font-size: $port-h1-font-size;
+   color: #FFFFFF;
+    order: 1;
+    flex: 0 1 auto;
+    min-width: 0;
+    min-height: auto;
+    align-self: auto;
+  }
+}
+
+
+}
+
+section.contact{
+  min-height: calc(100vh - 156px);
+}
 
 
 /* Using SCSS variables to store breakpoints */

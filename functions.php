@@ -5,8 +5,8 @@
 function portfolio_script_enqueue()
 {
 	//CSS
-	wp_enqueue_style( 'bootstrapstyle' , get_template_directory_uri() . '/assets/css/bootstrap.min.css' , array(), '3.3.4', 'all');
 	wp_enqueue_style( 'materializestyle' , get_template_directory_uri() . '/assets/css/materialize.min.css' , array(), '1.0.0', 'all');
+	wp_enqueue_style( 'bootstrapstyle' , get_template_directory_uri() . '/assets/css/bootstrap.min.css' , array(), '3.3.4', 'all');
 	wp_enqueue_style( 'customstyle' , get_template_directory_uri() . '/assets/css/styles.css' , array(), '1.0.0', 'all');
 	//JS
 	wp_enqueue_script( 'customjquery' , get_template_directory_uri() . '/assets/js/jquery.js' , array(), '3.3.1', true);

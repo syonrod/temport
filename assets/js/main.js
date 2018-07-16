@@ -1,3 +1,4 @@
+
 (function($){
   $(function(){
 
@@ -11,4 +12,8 @@ M.Slider.init(slider,{
 	indicators: false,
 	transition: 500,
 	interval: 6000
+});
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
 });
